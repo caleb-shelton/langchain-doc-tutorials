@@ -47,3 +47,9 @@ There are different ways to search vector stores two examples include: `similari
 LangChain `Retrievers` are Runnables and so can be chained in LCEL.
 
 Example included in Juypter Notebook file on retrieval-augmented generation (RAG)
+
+## Tutorial 04: Build an agent
+
+Agents are systems that use LLMs as reasoning engines to determine which actions to take and the inputs to pass them.
+After executing actions, the results can be fed back into the LLM to determine whether more actions are needed, or whether it is okay to finish.
+
